@@ -697,10 +697,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     }
-    .card-heading {
-        flex-wrap: wrap;
-        gap: 8px;
-    }
+    
     .project-cards{
         transition: 0.3s ease;
     }
@@ -718,10 +715,6 @@ footer {
     .third:hover{
     border-top: 5px solid var(--accent-gold);
     }
-    .code, .circuit {
-        max-width: 100%;
-        padding: 16px;
-    }
     footer {
         padding: 24px 0;
     }
@@ -734,4 +727,20 @@ footer {
         font-size: 12px;
     }
     
+}
+
+@media (max-width: 767px) {
+    .pro-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .card-heading {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .code, .circuit {
+        max-width: 100%;
+        padding: 16px;
+    }
 }
