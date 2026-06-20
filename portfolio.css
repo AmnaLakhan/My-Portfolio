@@ -199,7 +199,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 50px;
+    padding: 24px;
 }
 .eyebrow{
     display: flex;
@@ -267,7 +267,7 @@ body{
     transform: translate(4px);
 }
 #education{
-    padding: 50px;
+    padding: 24px;
     line-height: 1.5;
 }
 .heading{
@@ -355,7 +355,7 @@ body{
     font-style: italic;
 }
 #skills{
-    padding: 50px;
+    padding: 24px;
     line-height: 1.5;
 }
 .skill-grid{
@@ -509,7 +509,7 @@ body{
     line-height: 1.5;
 }
 .cont-heading{
-    padding: 30px;
+    padding: 16px 0;
 }
 .cont-card{
     border: 0.5px solid rgba(255, 255, 255, 0.07);
@@ -697,6 +697,10 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     }
+    .card-heading {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
     .project-cards{
         transition: 0.3s ease;
     }
@@ -713,6 +717,10 @@ footer {
     }
     .third:hover{
     border-top: 5px solid var(--accent-gold);
+    }
+    .code, .circuit {
+        max-width: 100%;
+        padding: 16px;
     }
     footer {
         padding: 24px 0;
